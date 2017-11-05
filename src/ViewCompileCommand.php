@@ -1,17 +1,17 @@
 <?php
 
-declare(strict_types = 1);
+declare(strict_types=1);
 
 namespace Melihovv\LaravelCompileViews;
 
+use Throwable;
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
-use Illuminate\Support\Facades\View;
 use Illuminate\View\FileViewFinder;
-use Illuminate\View\ViewFinderInterface;
+use Illuminate\Support\Facades\View;
 use Symfony\Component\Finder\Finder;
+use Illuminate\View\ViewFinderInterface;
 use Symfony\Component\Finder\SplFileInfo;
-use Throwable;
 
 class ViewCompileCommand extends Command
 {
@@ -97,13 +97,17 @@ class ViewCompileCommand extends Command
     protected function getViewName($viewFile, $namespace = null)
     {
         $viewName = str_replace(
-            array_merge([DIRECTORY_SEPARATOR], array_map(function (string $ext) {return ".$ext";}, $this->extensions)),
-            array_merge(['.'], array_map(function () {return '';}, $this->extensions)),
+            array_merge([DIRECTORY_SEPARATOR], array_map(function (string $ext) {
+                return ".$ext";
+            }, $this->extensions)),
+            array_merge(['.'], array_map(function () {
+                return '';
+            }, $this->extensions)),
             $viewFile->getRelativePathname()
         );
 
         if ($namespace) {
-            return $namespace . ViewFinderInterface::HINT_PATH_DELIMITER . $viewName;
+            return $namespace.ViewFinderInterface::HINT_PATH_DELIMITER.$viewName;
         }
 
         return $viewName;
