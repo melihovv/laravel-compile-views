@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/melihovv/laravel-compile-views.svg?branch=master)](https://travis-ci.org/melihovv/laravel-compile-views)
 [![styleci](https://styleci.io/repos/109587030/shield)](https://styleci.io/repos/109587030)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/melihovv/laravel-compile-views/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/melihovv/laravel-compile-views/?branch=master)
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/CHANGEME/mini.png)](https://insight.sensiolabs.com/projects/CHANGEME)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/28893314-076d-4940-bfc2-d5aac1bfec0b/mini.png)](https://insight.sensiolabs.com/projects/28893314-076d-4940-bfc2-d5aac1bfec0b)
 
 [![Packagist](https://img.shields.io/packagist/v/melihovv/laravel-compile-views.svg)](https://packagist.org/packages/melihovv/laravel-compile-views)
 [![Packagist](https://poser.pugx.org/melihovv/laravel-compile-views/d/total.svg)](https://packagist.org/packages/melihovv/laravel-compile-views)
