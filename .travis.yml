@@ -20,3 +20,6 @@ before_install:
 
 install:
   - travis_retry composer install --no-suggest --prefer-dist -n -o
+
+script:
+  - echo 'no tests, sorry'
