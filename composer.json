@@ -1,0 +1,38 @@
+{
+  "name": "melihovv/laravel-compile-views",
+  "description": "Missing view:compile command for laravel.",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "compile",
+    "views"
+  ],
+  "authors": [
+    {
+      "name": "Alexander Melihov",
+      "email": "amelihovv@ya.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/support": "~5.5.0",
+    "illuminate/view": "~5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Melihovv\\LaravelCompileViews\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Melihovv\\LaravelCompileViews\\ServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
