@@ -11,6 +11,8 @@
 
 Missing view:compile command for laravel.
 
+The perfect solution in combination with [blade minifier](https://github.com/HTMLMin/Laravel-HTMLMin): get minified compiled views with zero cost during your deploy script.
+
 ## Installation
 
 Install via composer
