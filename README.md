@@ -20,6 +20,14 @@ Install via composer
 composer require melihovv/laravel-compile-views
 ```
 
+**Following step is optional if you use laravel>=5.5 with package
+auto discovery feature.**
+
+Add service provider to `config/app.php` in `providers` section
+```php
+Melihovv\LaravelCompileViews\ServiceProvider::class,
+```
+
 ## Usage
 
 ```bash
