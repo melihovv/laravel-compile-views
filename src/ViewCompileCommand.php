@@ -86,6 +86,7 @@ class ViewCompileCommand extends Command
         try {
             View::make($viewName)->render();
         } catch (Throwable $e) {
+            printf('There is an error in the view %s, error: %s%s', $viewName, $e->getMessage(), "\n");
         }
     }
 
