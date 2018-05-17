@@ -9,6 +9,8 @@
 [![Packagist](https://poser.pugx.org/melihovv/laravel-compile-views/d/total.svg)](https://packagist.org/packages/melihovv/laravel-compile-views)
 [![Packagist](https://img.shields.io/packagist/l/melihovv/laravel-compile-views.svg)](https://packagist.org/packages/melihovv/laravel-compile-views)
 
+**Recently `view:cache` command was built in Laravel. So there is no need in this package anymore :)**
+
 Missing view:compile command for laravel.
 
 The perfect solution in combination with [blade minifier](https://github.com/HTMLMin/Laravel-HTMLMin): get minified compiled views with zero cost during your deploy script.
